@@ -9,7 +9,7 @@ const AddService = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios.post("http://localhost:5000/services", data).then((res) => {
-      if (res.data.insertId = "1") {
+      if ((res.data.insertId = "1")) {
         alert("Service added successfully");
         reset();
       }

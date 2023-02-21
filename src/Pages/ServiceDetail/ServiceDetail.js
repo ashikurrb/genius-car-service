@@ -13,9 +13,12 @@ const ServiceDetail = () => {
   }, []);
   return (
     <div align="center">
-      <h1> Details of 
+      <h1>
+        {" "}
+        Details of
         <br />
-        {service.name}</h1>
+        {service.name}
+      </h1>
       <br />
       <h3>ID: {serviceId}</h3>
       <h3>Price: ${service.price}</h3>
